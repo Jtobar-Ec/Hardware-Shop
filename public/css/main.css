@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"], input[type="number"] {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.shopping-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.shopping-list > li {
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.shopping-item {
+  display: block;
+  color: grey;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.shopping-item__checked {
+  text-decoration: line-through;
+}
+
+/* main.css */
+
+/* Estilo general para la página */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Estilo del nav */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Estilo para la caja del carrusel */
+.black-border-box {
+  border: 2px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Estilo para el carrusel */
+.carrusel .carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Estilo para la lista de productos */
+.products_list {
+  padding: 20px;
+}
+
+/* Estilo para el carrito de compras */
+.shopcart {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el formulario de contacto */
+.contact_form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
